@@ -41,8 +41,8 @@ var app = {
          //alert('his')
         //alert('Received Event: ' + id);
         var url = 'http://member.cleanspaceonline.com/?mobileapp=1' // change to whatever you want
-        //cordova.InAppBrowser.open(url, '_self', 'location=no');
-        cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+        cordova.InAppBrowser.open(url,  '_blank', 'location=yes');
+        //cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
     }
 };
 
